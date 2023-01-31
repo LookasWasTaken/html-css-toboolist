@@ -1,6 +1,5 @@
 body {
-    /* background-color: #f6f8f9; */
-    background-color: #9c72e4;
+    background-color: #f6f8f9;
     margin: 0;
 }
 
@@ -21,6 +20,10 @@ body {
 
 #containermargin {
     margin-top: 80px;
+}
+
+#containerpadding{
+    padding-bottom: 50px;
 }
 
 .brd {
@@ -107,6 +110,24 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 2.5;
     margin-left: 30px;
+}
+
+.menu{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.triangledown{
+    font-size: 35px;
+    vertical-align: middle;
+    padding-left: 0px;
+    padding-right: 0px;    
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2.5;
 }
 
 .check{
