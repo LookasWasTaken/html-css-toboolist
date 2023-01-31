@@ -1,11 +1,41 @@
-#app-header{
+#app-header {
     background-color: white;
 }
 
-#toboo{
+#toboo {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 3em;
     vertical-align: top;
+}
+
+#app-main {
+    background-color: #f6f8f9;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+/* /header */
+
+.addb{
+    margin: 5px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.abled{
+
+    background-color: #45abea;
+    color: white;
+    border: #45abea 2px solid;
+}
+
+.disabled{
+    background-color: #ffffff;
+    border:
 }
