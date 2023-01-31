@@ -1,26 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Boolist</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header id="app-header">
-        <img class="logo" src="./img/Logo.png" alt="Boolean_Logo">
-        <span id="toboo">Toboolist</span>
-    </header>
-    <!-- /#app-header -->
-    <main id="app-main">
-        <button class="addb abled">Add Task</button>
-        <button class="addb disabled" disabled>Add Section</button>
-    </main>
-    <!-- /#app-main -->
-    <footer id="app-footer">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Boolist</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="app-header">
+            <img class="logo" src="./img/Logo.png" alt="Boolean_Logo">
+            <span id="toboo">Toboolist</span>
+        </header>
+        <!-- /#app-header -->
+        <main id="app-main">
+            <div class="container">
+                <div class="brd" id="addfunction">
+                    <button class="addb abled">Add Task</button>
+                    <button class="addb disabled" disabled>Add Section</button>
+                </div>
+            </div>
+            <section class="container brd">
+                <div>
+                    <span class="menu">New Task</span><br>
+                    <span>Quarterly Newsletter</span>
+                    <button class="buttonshape editorial">Editorial</button>
+                </div>
+                <div>
+                    <span class="menu">Today</span><br>
+                    <span>Recruiting blog post</span>
+                    <button class="buttonshape editorial">Editorial</button><br>
+                    <span>Mobile app Launch</span>
+                    <button class="buttonshape q1goals">Q1 Goals</button><br>
+                    <span>Interview John H.</span>
+                    <button class="buttonshape recruiting">Recruiting</button><br>
+                    <span>Summit update to mobile storefronts</span>
+                    <button class="buttonshape mobile">Mobile</button><br>
+                </div>
+                <div>
+                    <span class="menu">Upcoming</span><br>
+                    <span>Schedule meeting with Alex</span><br>
+                    <span>Homepage refresh</span>
+                    <button class="buttonshape website">Website</button><br>
+                    <span>Onboard new sales team members</span>
+                    <button class="buttonshape sales">Sales</button><br>
+                    <span>Review editorial calendar</span>
+                    <button class="buttonshape editorial">Editorial</button>
+                </div>
+            </section>
+        </main>
+        <!-- /#app-main -->
+        <footer id="app-footer">
 
-    </footer>
-    <!-- /#app-footer -->
-</body>
+        </footer>
+        <!-- /#app-footer -->
+    </body>
 </html>

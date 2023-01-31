@@ -1,3 +1,7 @@
+body {
+    background-color: coral
+}
+
 #app-header {
     background-color: white;
 }
@@ -10,16 +14,23 @@
     vertical-align: top;
 }
 
-#app-main {
-    background-color: #f6f8f9;
-    margin-left: 20%;
-    margin-right: 20%;
-
-}
-
 /* /header */
 
-.addb{
+#addfunction {
+    margin-top: 80px;
+}
+
+.brd {
+    border: coral 4px solid;
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #ffffff;
+}
+
+.addb {
     margin: 5px;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -28,14 +39,14 @@
 
 }
 
-.abled{
+.abled {
 
     background-color: #45abea;
     color: white;
     border: #45abea 2px solid;
+    margin-left: 2em;
 }
 
-.disabled{
+.disabled {
     background-color: #ffffff;
-    border:
 }
