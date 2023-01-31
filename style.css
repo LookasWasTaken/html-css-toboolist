@@ -18,7 +18,7 @@ body {
 
 /* /header */
 
-#addfunction {
+#containermargin {
     margin-top: 80px;
 }
 
@@ -32,6 +32,7 @@ body {
     background-color: #ffffff;
 }
 
+/* buttons */
 .addb {
     margin: 5px;
     padding: 10px;
@@ -52,3 +53,52 @@ body {
 .disabled {
     background-color: #ffffff;
 }
+
+.buttonshape{
+    padding: 3px 10px 3px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    vertical-align: middle;
+    font-size: x-small;
+}
+
+.editorial{
+    background-color: #45abea;
+    color: white;
+    border: #45abea 2px solid;
+}
+
+.q1goals{
+    background-color: #9c72e4;
+    color: white;
+    border: #9c72e4 2px solid;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+    color: white;
+    border: #64c0a9 2px solid;
+}
+
+.mobile{
+    background-color: #f29e33 ;
+    color: white;
+    border: #f29e33 2px solid;
+}
+
+.website{
+    background-color: #d863a1;
+    color: white;
+    border: #d863a1 2px solid;
+}
+
+.sales{
+    background-color: #b0c926;
+    color: white;
+    border: #b0c926 2px solid;
+}
+/* /buttons */
+
+/* menu */
+
